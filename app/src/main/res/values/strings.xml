@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CoffeShop</string>
+    <string name="nama_pemesan">Nama Pemesan</string>
+    <string name="nama">Nama</string>
+    <string name="email_pemesan">Email Pemesan</string>
+    <string name="email">Email</string>
+    <string name="no_handphone_pemesan">No Handphone Pemesan</string>
+    <string name="nomor_handphone">Nomor Handphone</string>
+    <string name="tanggal_pemesanan">Tanggal Pemesanan</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="daftar_minuman">Daftar Minuman</string>
+    <string name="daftar_makanan">Daftar Makanan</string>
+    <string name="sandwich">Sandwich</string>
+    <string name="bakery">Bakery</string>
+    <string name="cake">Cake</string>
+    <string name="pembayaran">Pembayaran</string>
+    <string name="cash">Cash</string>
+    <string name="debet">Debet</string>
+    <string name="kredit">Kredit</string>
+    <string name="pesan_minuman">Pesan Minuman</string>
+    <string name="pesan_makanan">Pesan Makanan</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="total_pembayaran">total pembayaran</string>
+    <string-array name="daftar_menu_minuman">
+        <item>Caffe Late</item>
+        <item>Cappucino</item>
+        <item>Caramel Macchiato</item>
+        <item>Caffe Ammericano</item>
+        <item>Espresso Con Panna</item>
+        <item>Espresso</item>
+        <item>Misto</item>
+        <item>Cloud Brew</item>
+        <item>Blended Cream</item>
+        <item>Milk and Chocolate</item>
+        <item>Thai Tea</item>
+    </string-array>
+</resources>

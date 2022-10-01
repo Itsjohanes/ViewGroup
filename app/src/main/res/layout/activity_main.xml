@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_pemesan"
+
+            />
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/nama"
+            android:lines="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_pemesan"
+
+            />
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:lines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_handphone_pemesan"
+
+            />
+        <EditText
+            android:id="@+id/edt_nohp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="phone"
+
+            android:hint="@string/nomor_handphone"
+
+            android:lines="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tanggal_pemesanan"
+
+            />
+        <EditText
+            android:id="@+id/edt_tglpemesanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="date"
+            android:hint="@string/dd_mm_yyyy"
+
+            android:lines="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daftar_minuman"
+
+            />
+        <Spinner
+            android:id="@+id/spnr_daftarminuman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/daftar_menu_minuman"
+
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daftar_makanan"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/ch_sandwich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sandwich"/>
+
+            <CheckBox
+                android:id="@+id/ch_bakery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bakery"/>
+
+            <CheckBox
+                android:id="@+id/ch_cake"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cake"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pembayaran"
+            />
+        <RadioGroup
+            android:id="@+id/rg_pembayaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RadioButton
+                android:id="@+id/rb_cash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cash" />
+
+            <RadioButton
+                android:id="@+id/rb_debet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/debet" />
+
+            <RadioButton
+                android:id="@+id/rb_kredit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kredit" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan" />
+    </LinearLayout>
+</ScrollView>
