@@ -102,7 +102,7 @@
                 android:id="@+id/ch_bakery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/bakery"/>
+                android:text="Bakery" />
 
             <CheckBox
                 android:id="@+id/ch_cake"

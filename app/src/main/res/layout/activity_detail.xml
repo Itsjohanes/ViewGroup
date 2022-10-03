@@ -192,7 +192,70 @@
             android:textStyle="bold"
             android:textSize="18sp"
 
+            android:text = "Sub Total" />
+
+        <TextView
+            android:id="@+id/tv_subtotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
             android:text="@string/sub_total" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            android:text = "Diskon" />
+
+        <TextView
+            android:id="@+id/tv_diskon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:text="Diskon" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            android:text = "Pajak" />
+
+        <TextView
+            android:id="@+id/tv_pajak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:text="Pajak" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            android:text = "Total" />
 
         <TextView
             android:id="@+id/tv_total"

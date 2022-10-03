@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/MyCoffeeShop2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.308" />
+        <entry key="..\:/Kuliah/MyCoffeeShop2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.308" />
         <entry key="..\:/Kuliah/MyCoffeeShop2/app/src/main/res/layout/activity_detail.xml" value="0.2" />
-        <entry key="..\:/Kuliah/MyCoffeeShop2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Kuliah/MyCoffeeShop2/app/src/main/res/layout/activity_main.xml" value="0.4" />
       </map>
     </option>
   </component>
